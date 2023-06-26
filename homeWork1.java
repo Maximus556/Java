@@ -35,7 +35,7 @@ public class homeWork1 {
             }
         }
 */
-
+/* 
         //Задача 3 Реализовать простой калькулятор
 
         Scanner scanner = new Scanner(System.in);
@@ -72,7 +72,7 @@ public class homeWork1 {
                 System.out.println("Ошибка! Неверный оператор.");
                 break;
         }
-
+*/
 }
 
 }
