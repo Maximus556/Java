@@ -1,4 +1,5 @@
 package HomeWork2;
+/* 
 import java.io.FileWriter;
 import java.util.logging.Logger;
 import java.io.IOException;
@@ -63,4 +64,4 @@ public class task2 {
     }
    
 }
-
+*/
