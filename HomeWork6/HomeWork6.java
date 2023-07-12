@@ -31,40 +31,41 @@ public class HomeWork6 {
                 String key = entry.getKey();
                 String value = entry.getValue();
                 switch (key) {
-                    case "1":
+                    case "model":
                         if (!computer.getModel().equals(value)) {
                             isValid = false;
                         }
                         break;
-                    case "2":
+                    case "ram":
                         if (computer.getRam() != Integer.parseInt(value)) {
                             isValid = false;
                         }
                         break;
-                    case "3":
+                    case "storage":
                         if (computer.getStorage() != Integer.parseInt(value)) {
                             isValid = false;
                         }
                         break;
-                    case "4":
+                    case "os":
                         if (!computer.getOs().equals(value)) {
                             isValid = false;
                         }
                         break;
-                    case "5":
+                    case "color":
                         if (computer.getColor().equals(value)) {
                             isValid = false;
                         }
                         break;
-                    case "6":
+                    case "sizeDicplay":
                         if (computer.getSizeDicplay() != Integer.parseInt(value)) {
                             isValid = false;
                         }
                         break;
-                    case "7":
+                    case "price":
                         if (computer.getPrice() != Integer.parseInt(value)) {
                             isValid = false;
                         }
+                        break;
                 }
             }
             if (isValid) {
